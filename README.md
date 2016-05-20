@@ -33,10 +33,16 @@ Good Luck!
         #p"YOUR_PATH_TO_ASDF"
         ))
 ```
-- load
+- load project
 
 ```Lisp
-(load "PATH_TO_APPLICATION_FOLDER\bootstrap.lisp")
+(ql:quickload :mtghub-engine)
+```
+
+# Tests
+
+```Lisp
+(ql:quickload :mtghub-test)
 ```
 
 # ToDo
